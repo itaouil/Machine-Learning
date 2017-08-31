@@ -26,7 +26,7 @@ X = X[:, 1:]
 from sklearn.model_selection import train_test_split
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 1/5, random_state = 0)
 
-""" Multiple Linear Regression """
+""" All In """
 
 # Fit class to training set
 from sklearn.linear_model import LinearRegression

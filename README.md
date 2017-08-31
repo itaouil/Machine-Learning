@@ -15,7 +15,7 @@ However, before diving into the different approaches present to create a good mu
 
 ## MLR models
 
-Not all of the predictors present in the dataset are necessarily good for the model (this can fall back to the Linearity first principle) or they are just not relevant at all as a predictor. So how to we know which predictors to use and which ones to drop from our model.
+Not all of the predictors present in the dataset are necessarily good for the model (this can fall back to the Linearity first principle) or they are just not relevant (statistically speaking) at all as a predictor. So how to we know which predictors to use and which ones to drop from our model.
 
 These are the different methods:
 
