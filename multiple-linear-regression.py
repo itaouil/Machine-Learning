@@ -24,4 +24,14 @@ X = X[:, 1:]
 
 # Split dataset (training and test sets)
 from sklearn.model_selection import train_test_split
-X_train, Y_train, X_test, Y_test = train_test_split(X, Y, test_size = 1/5, random_state = 0)
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 1/5, random_state = 0)
+
+""" Multiple Linear Regression """
+
+# Fit class to training set
+from sklearn.linear_model import LinearRegression
+regressor = LinearRegression()
+regressor.fit(X_train, Y_train)
+
+# Predicting the test set results
+Y_pred = regressor.predict(X_test)
