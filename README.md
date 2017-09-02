@@ -11,11 +11,11 @@ Simple linear regression is a type of regression model that tries to find a line
 These are the steps described in the ML python script:
 
 1. Preprocess data
-...- Import libraries and dataset/s
-...- Handle missing data (NOT needed)
-...- Encode categorial features (NOT needed)
-...- Split dataset into test and training set
-...- Feature scaling (NOT needed as already part of the regressor)
+ - Import libraries and dataset/s
+ - Handle missing data (NOT needed)
+ - Encode categorial features (NOT needed)
+ - Split dataset into test and training set
+ - Feature scaling (NOT needed as already part of the regressor)
 2. Create regression model and fit the training set
 3. Predict dependent variables with test set
 4. Plot charts
