@@ -19,3 +19,7 @@ How to build a simple linear regression model using python's sklearn library and
 Linearity checking of the dataset and model. Simple "*All In*" and "*Backward Substitution*" examples upon other methods available described in the README.
 
 ## Brach 04: Polynomial Regression
+
+Simple example for a blaff salary detector.
+
+## Brach 05: Support Vector Regression
