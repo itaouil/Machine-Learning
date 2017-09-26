@@ -1,11 +1,16 @@
-# **Decision Tree Regression**
+# **Random Forest Regression**
 
-Decision trees are the first model we encounter in this machine-learning repo which is a non-linear and non-continuos. We are used already to non-linearity as we have encountered polynomial and svr type of regressions.
+As the name of this regression model portraits, we are talking about many decision regression trees.
 
-### What is this tree based regression model ?
+### How does it work ?
 
-It is a clustering model based on grouping the different independent variable based on information entropy. The regressor in sklearn offers different approaches, the one used in this case was the default minimum distance entropy, hence, grouping the different variables onto clusters and assigning to each of these leaves the average of the values contained within, aka our predicted values for the range.
+Here is what the model comports.
 
-However, we have to notice that performance wise polynomial regression did perform better. The result of the Decision Tree Model is the following:
+1. We choose a subset of the dataset and train a decision tree on it.
+2. We chose another subset of the dataset and train another decision tree on it.
+3. Keep repeating 1 and 2 until the whole dataset is used.
+4. When an unseen datapoint is presented we predict the dependent value on all the decision tree we modeled before and the value of the prediction is the average of all the prediction.
 
-![alt](https://github.com/itaouil/Machine-Learning/blob/06-decision-tree-intuition/dtr.png)
+**P.S:**: What we obtain is a non-linear, non-continuos model that is a bit less subtle to outliers and statistically speaking performs better that a single decision tree regression model.
+
+![alt](https://github.com/itaouil/Machine-Learning/blob/07-random-forest-regression/rfr.png)
