@@ -8,4 +8,4 @@ It is a clustering model based on grouping the different independent variable ba
 
 However, we have to notice that performance wise polynomial regression did perform better. The result of the Decision Tree Model is the following:
 
-![alt]()
+![alt](https://github.com/itaouil/Machine-Learning/blob/06-decision-tree-intuition/dtr.png)
